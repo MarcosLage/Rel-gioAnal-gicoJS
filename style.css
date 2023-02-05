@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #6495ed;
+    background-color: #39b99e;
 }
 
 main {
@@ -20,7 +20,9 @@ main {
 .clock {
     min-width: 600px;
     min-height: 600px;
-    background-color: aliceblue;
+    background-image: url("paris.png");
+    background-size: cover;
+    /*background-color: aliceblue;*/
     border-radius: 600px;
     border: 15px groove #333;
     position: relative;
@@ -37,6 +39,7 @@ main {
     height: 100%;
     text-align: center;
     padding: 5px;
+    color: rgb(230, 22, 22);
 }
 
 .number-1 {
@@ -251,7 +254,7 @@ main {
 .minute-hand {
     width: 8px;
     height: 230px;
-    background-color: #333;
+    background-color: #fff;
     position: absolute;
     border-radius: 5px;
     transform: translate(0, -50%);
@@ -261,7 +264,7 @@ main {
 .hour-hand {
     width: 10px;
     height: 180px;
-    background-color: #333;
+    background-color: #fff;
     position: absolute;
     border-radius: 13px;
     transform: translate(0, -50%);
