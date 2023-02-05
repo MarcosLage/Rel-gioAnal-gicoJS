@@ -1,2 +1,2 @@
-# Rel-gioAnal-gicoJS
+# RelogioAnalogicoJS
 Relógio analógico 
