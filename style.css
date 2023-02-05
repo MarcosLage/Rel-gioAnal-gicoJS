@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #6495ed;
+}
+
+main {
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock {
+    min-width: 600px;
+    min-height: 600px;
+    background-color: aliceblue;
+    border-radius: 600px;
+    border: 15px groove #333;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    font-size: 1.8rem;
+    font-weight: 600;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.number-1 {
+    transform: rotate(30deg);
+}
+
+.number-2 {
+    transform: rotate(60deg);
+}
+
+.number-3 {
+    transform: rotate(90deg);
+}
+
+.number-4 {
+    transform: rotate(120deg);
+}
+
+.number-5 {
+    transform: rotate(150deg);
+}
+
+.number-6 {
+    transform: rotate(180deg);
+}
+
+.number-7 {
+    transform: rotate(210deg);
+}
+
+.number-8 {
+    transform: rotate(240deg);
+}
+
+.number-9 {
+    transform: rotate(270deg);
+}
+
+.number-10 {
+    transform: rotate(300deg);
+}
+
+.number-11 {
+    transform: rotate(330deg);
+}
+
+.number-12 {
+    transform: rotate(360deg);
+}
+
+.tam{
+    font-size: 21px;
+}
+
+.p1{
+    transform: rotate(6deg);
+}
+.p2{
+    transform: rotate(12deg);
+}
+.p3{
+    transform: rotate(18deg);
+}
+.p4{
+    transform: rotate(24deg);
+}
+.p6{
+    transform: rotate(36deg);
+}
+.p7{
+    transform: rotate(42deg);
+}
+.p8{
+    transform: rotate(48deg);
+}
+.p9{
+    transform: rotate(54deg);
+}
+.p11{
+    transform: rotate(66deg);
+}
+.p12{
+    transform: rotate(72deg);
+}
+.p13{
+    transform: rotate(78deg);
+}
+.p14{
+    transform: rotate(84deg);
+}
+.p16{
+    transform: rotate(96deg);
+}
+.p17{
+    transform: rotate(102deg);
+}
+.p18{
+    transform: rotate(108deg);
+}
+.p19{
+    transform: rotate(114deg);
+}
+.p21{
+    transform: rotate(126deg);
+}
+.p22{
+    transform: rotate(132deg);
+}
+.p23{
+    transform: rotate(138deg);
+}
+.p24{
+    transform: rotate(144deg);
+}
+.p26{
+    transform: rotate(156deg);
+}
+.p27{
+    transform: rotate(162deg);
+}
+.p28{
+    transform: rotate(168deg);
+}
+.p29{
+    transform: rotate(174deg);
+}
+.p31{
+    transform: rotate(186deg);
+}
+.p32{
+    transform: rotate(192deg);
+}
+.p33{
+    transform: rotate(198deg);
+}
+.p34{
+    transform: rotate(204deg);
+}
+.p36{
+    transform: rotate(216deg);
+}
+.p37{
+    transform: rotate(222deg);
+}
+.p38{
+    transform: rotate(228deg);
+}
+.p39{
+    transform: rotate(234deg);
+}
+.p41{
+    transform: rotate(246deg);
+}
+.p42{
+    transform: rotate(252deg);
+}
+.p43{
+    transform: rotate(258deg);
+}
+.p44{
+    transform: rotate(264deg);
+}
+.p46{
+    transform: rotate(276deg);
+}
+.p47{
+    transform: rotate(282deg);
+}
+.p48{
+    transform: rotate(288deg);
+}
+.p49{
+    transform: rotate(294deg);
+}
+.p51{
+    transform: rotate(306deg);
+}
+.p52{
+    transform: rotate(312deg);
+}
+.p53{
+    transform: rotate(318deg);
+}
+.p54{
+    transform: rotate(324deg);
+}
+.p56{
+    transform: rotate(336deg);
+}
+.p57{
+    transform: rotate(342deg);
+}
+.p58{
+    transform: rotate(348deg);
+}
+.p59{
+    transform: rotate(354deg);
+}
+
+
+
+.second-hand {
+    width: 5px;
+    height: 240px;
+    background-color: #a52a2a;
+    position: absolute;
+    border-radius: 5px;
+    transform: translate(0, -50%);
+    transform-origin: bottom center;
+}
+
+.minute-hand {
+    width: 8px;
+    height: 230px;
+    background-color: #333;
+    position: absolute;
+    border-radius: 5px;
+    transform: translate(0, -50%);
+    transform-origin: bottom center;
+}
+
+.hour-hand {
+    width: 10px;
+    height: 180px;
+    background-color: #333;
+    position: absolute;
+    border-radius: 13px;
+    transform: translate(0, -50%);
+    transform-origin: bottom center;
+}
+
+.center {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #a52a2a;
+    position: absolute;
+}
